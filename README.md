@@ -139,7 +139,7 @@ int main(int argc, char *argv[]) {
 
 ## 3 任务
 
-此实现不需要使用服务器，本地完成即可。
+此实验不需要使用服务器，本地完成即可。
 
 ```
 git clone https://github.com/Boreas618/Condvar.git
@@ -149,7 +149,7 @@ git clone https://github.com/Boreas618/Condvar.git
 
 ## 4 提交
 
-**提交方式**：将实验报告提交到 elearning 上，格式为 `学号-lab4.1.pdf`。
+**提交方式**：将**代码与实验报告**打包提交到 elearning 上，格式为 `学号-lab4.1.zip`。
 
 **注意**：从`lab1`开始，用于评分的代码以实验报告提交时为准。如果需要使用新的代码版本，请重新提交实验报告。
 
