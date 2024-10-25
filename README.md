@@ -137,7 +137,7 @@ int main(int argc, char *argv[]) {
 
    当然了，在这个案例中，理论上唤醒时的假设 `done == 0` 在运行时仍将成立，因为 `done` 一共只有 `0` 和 `1` 两种状态，并且没有可能从 `0` 变为 `1`。[OSTEP](https://pages.cs.wisc.edu/~remzi/OSTEP/threads-cv.pdf) 第 30.2 节提供了一个唤醒时假设到了运行时的假设不一定成立的案例，大家可以去阅读了解。
 
-## 任务
+## 3 任务
 
 此实现不需要使用服务器，本地完成即可。
 
@@ -147,7 +147,7 @@ git clone https://github.com/Boreas618/Condvar.git
 
 依照上述介绍与项目中的注释完成 `main.c` 的 todo 处内容。完成后 `make check` 验证程序正确性。
 
-## 提交
+## 4 提交
 
 **提交方式**：将实验报告提交到 elearning 上，格式为 `学号-lab4.1.pdf`。
 
