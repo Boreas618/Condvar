@@ -1,5 +1,5 @@
 check:
-	gcc -o main main.c
+	gcc -o main main.c -lpthread
 	./main
 	python3 check.py
 
